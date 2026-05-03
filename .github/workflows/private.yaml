@@ -1,6 +1,4 @@
 on:
-  schedule:
-    - cron: '00 15 05 05 *' # 15:00 UTC = 8:30PM IST
   workflow_dispatch: 
 jobs:
   make-repo-private:
